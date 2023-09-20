@@ -17,7 +17,7 @@ async function selectMediaStream() {
 
 button.addEventListener('click', async () => {
     // DISABLE BUTTON
-    button.Disabled = true;
+    button.disabled = true;
 
     // START PICTURE IN PICTURE
     await videoElement.requestPictureInPicture();
